@@ -13,7 +13,7 @@ import saudiaimg5 from '../assets/sauida2.jpg';
 
 import profile1 from "../assets/profile1.jpg";
 import profile2 from "../assets/profile2.jpg";
-import profile3 from "../assets/profile3.jpg";
+import profile3 from "../assets/profile1.jpg";
 
 
 import saudiaplace from "../assets/hotel1.jpg";
@@ -22,12 +22,12 @@ import ukplace from "../assets/hotel3.jpg";
 import chinaplace from "../assets/hotel4.jpg";
 
 
-import profile4 from '../assets/profile3.jpg';
+import profile4 from '../assets/profile1.jpg';
 import profile5 from '../assets/profile2.jpg';
-import profile6 from '../assets/profile3.jpg';
-import profile7 from '../assets/profile3.jpg';
-import profile8 from '../assets/profile2.jpg';
-import profile9 from '../assets/profile3.jpg';
+import profile6 from '../assets/profile1.jpg';
+import profile7 from '../assets/profile2.jpg';
+import profile8 from '../assets/profile1.jpg';
+import profile9 from '../assets/profile2.jpg';
 
 import chinahotel from '../assets/chinahotel.jpg';
 import chinahotel2 from '../assets/chinahotel2.jpg';
@@ -35,6 +35,15 @@ import chinahotel3 from '../assets/chinahotel3.jpg';
 
 import chinahotel4 from '../assets/chinahotel.jpg';
 import chinahotel5 from '../assets/chinahotel2.jpg';
+
+
+import f1 from '../assets/f1.jpg';
+import f2 from '../assets/f2.jpg';
+import f3 from '../assets/f3.jpg';
+import f4 from '../assets/f4.jpg';
+import f5 from '../assets/f5.jpg';
+
+
 
 
 // Exported deals
@@ -177,7 +186,7 @@ export const stays = [
 //Exportflight
  export const flights = [
     {
-      airline: 'Hawaiian Airlines',
+      airline: 'Hawaiian Airline',
       logo: profile4,
       duration: '16h 45m',
       departure: '7:00AM - 4:15PM',
@@ -187,7 +196,7 @@ export const stays = [
       type: 'round trip',
     },
     {
-      airline: 'Japan Airlines',
+      airline: 'Japan Airline',
       logo: profile5,
       duration: '18h 22m',
       departure: '7:35AM - 12:15PM',
@@ -197,7 +206,7 @@ export const stays = [
       type: 'round trip',
     },
     {
-      airline: 'Delta',
+      airline: 'Delta Airline',
       logo: profile6,
       duration: '18h 52m',
       departure: '9:47AM - 4:15PM',
@@ -207,7 +216,7 @@ export const stays = [
       type: 'round trip',
     },
     {
-      airline: 'Hawaiian Airlines',
+      airline: 'Hawaiian Airline',
       logo: profile7,
       duration: '16h 45m',
       departure: '7:00AM - 4:15PM',
@@ -217,7 +226,7 @@ export const stays = [
       type: 'round trip',
     },
     {
-      airline: 'Japan Airlines',
+      airline: 'Japan Airline',
       logo: profile8,
       duration: '18h 22m',
       departure: '7:35AM - 12:15PM',
@@ -227,7 +236,7 @@ export const stays = [
       type: 'round trip',
     },
     {
-      airline: 'Delta',
+      airline: 'Delta Airline',
       logo: profile9,
       duration: '18h 52m',
       departure: '9:47AM - 4:15PM',
@@ -269,4 +278,27 @@ export const morePlaces = [
     image: chinahotel4, // Replace with your image path
   },
  
+];
+
+//people  search
+ export const moresearch = [
+  {
+    image: f1, // Add the correct image path or URL
+    title: 'Shanghai, China',
+    description: 'An international city rich in culture.',
+    price: '$598',
+  },
+  {
+    image: f2,
+    title: 'Nairobi, Kenya',
+    description: 'Dubbed the Safari Capital of the World.',
+    price: '$1,248',
+  },
+  {
+    image: f3,
+    title: 'Seoul, South Korea',
+    description: 'This modern city is a traveler’s dream.',
+    price: '$589',
+  },
+  // Add more objects as needed
 ];
