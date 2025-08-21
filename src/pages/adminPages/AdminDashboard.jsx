@@ -1,8 +1,8 @@
 import React from 'react';
 import DashboardContent from '../../components/adminPagesComponents/DashboardContent';
 import TicketSalesGraph from '../../components/adminPagesComponents/TicketSalesGraph';
-import FlightListingLeft from '../../components/userPagesComponents/TicketBuySection/leftSection/FlightListingLeft';
-import ImgLeft from '../../components/userPagesComponents/TicketBuySection/leftSection/ImgLeft';
+import FlightListingLeft from '../../components/userPagesComponents/TicketBuySection/FlightListingLeft';
+
 
 const AdminDashboard = () => {
   const stats = {
@@ -17,14 +17,17 @@ const AdminDashboard = () => {
   };
 
   return (
-   <>
-      
+    <>
+
       <DashboardContent stats={stats} />
-      <TicketSalesGraph/>
-      
-      <FlightListingLeft />
-    </>  
-    
+      <TicketSalesGraph />
+      <div className=' mt-4'>
+        <h1 className="text-3xl font-semibold text-[#1e3a8a] ml-7">All Booking</h1>
+        <FlightListingLeft />
+      </div>
+
+    </>
+
   );
 };
 

@@ -52,7 +52,7 @@ const AdminMenu = () => {
             <ul className="space-y-4">
               <li>
                 <Link
-                  to="/dashboard"
+                  to="/admin-dashboard"
                   className="flex items-center space-x-2 text-white hover:bg-teal-500 hover:text-white p-2 rounded-md"
                 >
                   <i className="fas fa-tachometer-alt"></i>
@@ -61,7 +61,7 @@ const AdminMenu = () => {
               </li>
               <li>
                 <Link
-                  to="/bookings"
+                  to="add-booking"
                   className="flex items-center space-x-2 text-white hover:bg-teal-500 hover:text-white p-2 rounded-md"
                 >
                   <i className="fas fa-book"></i>

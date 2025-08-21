@@ -5,7 +5,7 @@ import NoMealIcon from '../../../assets/NoMealIcon.png';
 
 const BASE_URL = 'http://localhost:8080';
 
-const FlightCard = ({
+const FlightScheduleCard = ({
   airline,
   logo,
   flightCode,
@@ -99,16 +99,16 @@ const FlightCard = ({
             <span className="text-sm text-gray-500">{type}</span>
           </div>
 
-          {/* <button
+          <button
             className="text-white text-sm bg-[#1e3a8a] px-4 py-2 rounded-md shadow-md hover:bg-gray-700 transition w-full sm:w-auto"
             onClick={() => console.log('View Details Clicked!')}
           >
             View Details
-          </button> */}
+          </button>
         </div>
       </div>
     </div>
   );
 };
 
-export default FlightCard;
+export default FlightScheduleCard;

@@ -11,7 +11,7 @@ const PopularDestinations = () => {
     return (
         <div className="max-w-full mx-auto p-4 sm:p-6 lg:p-8">
             {/* Header section with top-right aligned button */}
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+            <div className="flex flex-col sm:flex-row justify-between items-start mb-6">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4 sm:mb-0">Popular Destination</h2>
                 <div className="mt-2 sm:mt-0 flex-shrink-0">
                     <select
@@ -37,14 +37,14 @@ const PopularDestinations = () => {
 
             {/* Destination list with responsive grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
-                {/* Mexico */}
+                
                 <div className="space-y-1">
                     <div className="flex justify-between items-center">
-                        <span className="text-gray-700">Mexico</span>
+                        <span className="text-gray-700">Sharja</span>
                         <span className="font-semibold text-gray-900">24%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2.5">
-                        <div className="bg-amber-500 h-2.5 rounded-full" style={{ width: '24%' }}></div>
+                        <div className="bg-[#1e3a8a] h-2.5 rounded-full" style={{ width: '24%' }}></div>
                     </div>
                 </div>
 
@@ -55,7 +55,7 @@ const PopularDestinations = () => {
                         <span className="font-semibold text-gray-900">18%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2.5">
-                        <div className="bg-amber-500 h-2.5 rounded-full" style={{ width: '18%' }}></div>
+                        <div className="bg-[#1e3a8a] h-2.5 rounded-full" style={{ width: '18%' }}></div>
                     </div>
                 </div>
 
@@ -66,25 +66,25 @@ const PopularDestinations = () => {
                         <span className="font-semibold text-gray-900">16%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2.5">
-                        <div className="bg-amber-500 h-2.5 rounded-full" style={{ width: '16%' }}></div>
+                        <div className="bg-[#1e3a8a] h-2.5 rounded-full" style={{ width: '16%' }}></div>
                     </div>
                 </div>
 
                 {/* India */}
                 <div className="space-y-1">
                     <div className="flex justify-between items-center">
-                        <span className="text-gray-700">India</span>
+                        <span className="text-gray-700">Dubai</span>
                         <span className="font-semibold text-gray-900">12%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2.5">
-                        <div className="bg-amber-500 h-2.5 rounded-full" style={{ width: '12%' }}></div>
+                        <div className="bg-[#1e3a8a] h-2.5 rounded-full" style={{ width: '12%' }}></div>
                     </div>
                 </div>
 
                 {/* France */}
                 <div className="space-y-1">
                     <div className="flex justify-between items-center">
-                        <span className="text-gray-700">France</span>
+                        <span className="text-gray-700">Abu Dabi</span>
                         <span className="font-semibold text-gray-900">9%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2.5">
@@ -95,7 +95,7 @@ const PopularDestinations = () => {
                 {/* Australia */}
                 <div className="space-y-1">
                     <div className="flex justify-between items-center">
-                        <span className="text-gray-700">Australia</span>
+                        <span className="text-gray-700">Birmingham</span>
                         <span className="font-semibold text-gray-900">7%</span>
                     </div>
                     <div className="w-full bg-gray-200 rounded-full h-2.5">

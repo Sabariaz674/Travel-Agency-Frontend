@@ -15,13 +15,7 @@ const AdminHeader = () => {
           placeholder="Search anything"
           className="w-full md:w-auto p-2 text-sm sm:text-base border border-gray-300 rounded-md"
         />
-        <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gray-200 rounded-full flex justify-center items-center">
-          <img
-            src="https://via.placeholder.com/150"
-            alt="Profile"
-            className="w-full h-full rounded-full object-cover"
-          />
-        </div>
+        
       </div>
     </div>
   );

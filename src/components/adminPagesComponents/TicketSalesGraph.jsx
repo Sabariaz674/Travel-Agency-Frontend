@@ -72,10 +72,10 @@ const TicketSalesGard = () => {
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 max-w-full mx-auto flex flex-col lg:flex-row gap-6">
+    <div className="bg-white rounded-xl shadow-md p-4 sm:p-6 lg:p-8 max-w-285 mx-auto flex flex-col lg:flex-row gap-6">
       
       {/* Left Section (Chart) */}
-      <div className="w-full lg:w-1/2 flex flex-col">
+      <div className="w-full lg:w-1/2 flex flex-col lg:mt-7">
         {/* Header with Title and Dropdown */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
           <div>
@@ -98,7 +98,7 @@ const TicketSalesGard = () => {
         </div>
 
         {/* Chart */}
-        <div className="w-full h-64 sm:h-80 lg:h-96">
+        <div className="w-full h-64 sm:h-80 lg:h-96 mt-7">
           <Bar data={data} options={options} />
         </div>
       </div>

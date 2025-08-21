@@ -1,16 +1,19 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App.jsx';
-import { GoogleOAuthProvider } from '@react-oauth/google';
-import { BrowserRouter } from 'react-router-dom';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';  // Import BrowserRouter
+import App from './App';
+import store from './redux/store';
 
-
-createRoot(document.getElementById('root')).render(
-  <GoogleOAuthProvider clientId="603172305383-t52jli5m1telmup4q9cnbm6p87qge54m.apps.googleusercontent.com">
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </GoogleOAuthProvider>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <BrowserRouter> {/* Wrap App with BrowserRouter */}
+        <App />
+      </BrowserRouter>
+    </Provider>
+  </React.StrictMode>
 );

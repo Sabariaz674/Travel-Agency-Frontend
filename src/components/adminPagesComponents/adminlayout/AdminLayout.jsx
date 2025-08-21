@@ -1,6 +1,6 @@
 import React from 'react';
-import AdminMenu from '../../common/AdminMenu';
-import AdminHeader from '../../common/AdminHeader';
+import AdminMenu from '../../../components/adminPagesComponents/adminlayout/AdminMenu';
+import AdminHeader from '../../../components/adminPagesComponents/adminlayout/AdminHeader';
 import Footer from '../../common/Footer';
 import { Outlet } from 'react-router-dom';
 

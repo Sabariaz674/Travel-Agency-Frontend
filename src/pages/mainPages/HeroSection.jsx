@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <>
       <div
-        className="w-full overflow-hidden bg-no-repeat bg-cover bg-center pt-40 pb-12  flex flex-col items-center justify-start px-4"
+        className="w-full overflow-hidden bg-no-repeat bg-cover bg-center pt-40 pb-12  flex flex-col items-center justify-start px-4 mb-8"
         style={{
           backgroundImage: `url(${Graph})`,
           backgroundColor: "#f4f4f4"
@@ -39,8 +39,9 @@ const HeroSection = () => {
             </motion.span>
           ))}
         </h1>
-
         <SearchBox />
+
+        
       </div>
 
       <Deals />
